@@ -1,0 +1,81 @@
+.container__rodape {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--fundo-rodape);
+    padding: 4rem 2rem;
+    box-sizing: border-box;
+}
+
+.rodape__titulo {
+    font-weight: 600;
+    font-size: 36px;
+    letter-spacing: -0.02rem;
+    line-height: 44px;
+    color: var(--azul-titulo);
+}
+
+.rodape__texto {
+    color: var(--azul-principal);
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 30px;
+    margin: 1rem 0 1.5rem 0;
+}
+
+.rodape__email {
+    margin: 0.5rem 0 1rem 0;
+}
+
+.rodape__email-input {
+    padding: 0.7rem 0;
+    width: 25vw;
+    border: 1px solid #D0D5DD;
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    margin-right: 1rem;
+    padding-left: 1rem;
+}
+
+.rodape__email-input::placeholder {
+    color: var(--azul-principal);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 24px;
+    font-family: 'Inter', sans-serif;
+    
+}
+
+.rodape__email-botao {
+    background-color: var(--vermelho);
+    border: 1px solid var(--vermelho);
+    box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+    border-radius: 8px;
+    padding: 0.5rem 1.5rem;
+}
+
+.rodape__email-botao:hover {
+    background: var(--branco);
+    text-decoration: underline;
+}
+
+.rodape__email-botao:hover > .rodape__email-link {
+    color: var(--vermelho);
+}
+
+.rodape__email-link {
+    color: var(--branco);
+    font-size: 16px;
+    font-weight: 500;
+    line-height: 24px;
+    text-decoration: none;
+}
+
+.rodape__copy {
+    color: var(--azul-principal);
+    font-weight: 400;
+    line-height: 24px;
+    margin-top: 0.5rem;
+}
